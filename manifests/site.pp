@@ -68,6 +68,7 @@ node default {
   include sublime_text_2
   include flowdock
   include github_for_mac
+  include heroku
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
