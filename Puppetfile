@@ -59,3 +59,14 @@ github "xquartz",     "1.1.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "sysctl", "1.0.1"
+github "sublime_text_2", "1.1.2"
+github "chrome", "1.1.2"
+github "firefox", "1.1.9"
+github "macvim", "1.0.0"
+github "flowdock", "1.0.0"
+github "java", "1.5.0"
+github "elasticsearch", "2.2.0"
+github "postgresql", "3.0.1"
+github "imagemagick", "1.2.1"
