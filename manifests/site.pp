@@ -67,7 +67,8 @@ node default {
   include firefox
   include sublime_text_2
   include flowdock
-  
+  include github_for_mac
+
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
     fail('Please enable full disk encryption and try again')
