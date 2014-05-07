@@ -1,11 +1,11 @@
-class projects::maritant {
+class projects::werkly {
 
-  boxen::project { 'maritant':
+  boxen::project { 'werkly':
     ruby   => '2.0.0',
     dotenv => true,
     postgresql  => true,
     elasticsearch => true,
     nginx  => true,
-    source => 'revelrylabs/maritant'
+    source => 'revelrylabs/werkly'
   }
 }
