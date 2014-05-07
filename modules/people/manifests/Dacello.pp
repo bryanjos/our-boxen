@@ -1,3 +1,3 @@
-class people::Daniel-Andrews {
-  postgresql::db { 'daniel' : }
+class people::Dacello {
+  include projects::all
 }
