@@ -1,6 +1,6 @@
 class projects::mobstreams {
 
-  boxen::project { 'maritant':
+  boxen::project { 'mobstreams':
     ruby   => '2.0.0',
     dotenv => true,
     postgresql  => true,
