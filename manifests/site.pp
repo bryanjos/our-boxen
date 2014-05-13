@@ -69,6 +69,7 @@ node default {
   include flowdock
   include github_for_mac
   include heroku
+  include skitch
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
