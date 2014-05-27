@@ -129,6 +129,11 @@ GITHUBTARBALL
     ruby (7.3.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-skitch
+  specs:
+    skitch (1.0.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-sublime_text_2
   specs:
     sublime_text_2 (1.1.2)
@@ -198,6 +203,7 @@ DEPENDENCIES
   postgresql (= 3.0.1)
   repository (= 2.3.0)
   ruby (= 7.3.0)
+  skitch (= 1.0.2)
   stdlib (= 4.1.0)
   sublime_text_2 (= 1.1.2)
   sudo (= 1.0.0)
