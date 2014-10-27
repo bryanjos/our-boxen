@@ -71,6 +71,8 @@ node default {
   include github_for_mac
   include heroku
   include skitch
+  include lastpass
+  include screenhero
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {

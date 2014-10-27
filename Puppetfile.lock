@@ -139,6 +139,11 @@ GITHUBTARBALL
     ruby (8.1.2)
 
 GITHUBTARBALL
+  remote: boxen/puppet-screenhero
+  specs:
+    screenhero (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-skitch
   specs:
     skitch (1.0.2)
@@ -162,6 +167,11 @@ GITHUBTARBALL
   remote: boxen/puppet-xquartz
   specs:
     xquartz (1.1.1)
+
+GITHUBTARBALL
+  remote: dieterdemeyer/puppet-lastpass
+  specs:
+    lastpass (1.1.0)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
@@ -202,6 +212,7 @@ DEPENDENCIES
   inifile (= 1.0.3)
   irssi (= 1.0.1)
   java (= 1.5.0)
+  lastpass (= 1.1.0)
   macvim (= 1.0.0)
   module-data (= 0.0.3)
   nginx (= 1.4.3)
@@ -215,6 +226,7 @@ DEPENDENCIES
   redis (= 3.1.0)
   repository (= 2.3.0)
   ruby (= 8.1.2)
+  screenhero (= 1.0.1)
   skitch (= 1.0.2)
   stdlib (= 4.1.0)
   sublime_text_2 (= 1.1.2)
