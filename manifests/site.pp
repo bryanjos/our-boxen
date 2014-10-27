@@ -63,6 +63,7 @@ node default {
   include java
   include elasticsearch
   include imagemagick
+  include redis
   include chrome
   include firefox
   include sublime_text_2
