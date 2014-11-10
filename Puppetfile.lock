@@ -1,7 +1,7 @@
 GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
-    boxen (3.4.2)
+    boxen (3.7.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-chrome
@@ -199,7 +199,7 @@ GITHUBTARBALL
     ohmyzsh (1.0.0)
 
 DEPENDENCIES
-  boxen (= 3.4.2)
+  boxen (= 3.7.0)
   chrome (= 1.1.2)
   dnsmasq (= 1.0.1)
   elasticsearch (= 2.2.0)
