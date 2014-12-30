@@ -80,9 +80,9 @@ node default {
   }
 
   # node versions
-  # include nodejs::v0_6 # 0.6 is removed?
-  include nodejs::v0_8
-  include nodejs::v0_10
+  nodejs::version { 'v0.6': }
+  nodejs::version { 'v0.8': }
+  nodejs::version { 'v0.10': }
 
   # default ruby versions
   ruby::version { '1.9.3': }
