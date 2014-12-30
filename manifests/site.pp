@@ -80,7 +80,7 @@ node default {
   }
 
   # node versions
-  include nodejs::v0_6
+  # include nodejs::v0_6 # 0.6 is removed?
   include nodejs::v0_8
   include nodejs::v0_10
 
