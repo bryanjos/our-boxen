@@ -73,6 +73,7 @@ node default {
   include skitch
   include lastpass
   include screenhero
+  include revelry::nginxssl
 
   # fail if FDE is not enabled
   # if $::root_encrypted == 'no' {
