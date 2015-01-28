@@ -16,7 +16,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-elasticsearch
   specs:
-    elasticsearch (2.2.0)
+    elasticsearch (2.7.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-firefox
@@ -51,7 +51,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-go
   specs:
-    go (2.1.0)
+    go (1.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-heroku
@@ -202,14 +202,14 @@ DEPENDENCIES
   boxen (= 3.7.0)
   chrome (= 1.2.0)
   dnsmasq (= 2.0.1)
-  elasticsearch (= 2.2.0)
+  elasticsearch (= 2.7.0)
   firefox (= 1.2.3)
   flowdock (= 1.0.0)
   foreman (= 1.2.0)
   gcc (= 2.2.0)
   git (= 2.7.1)
   github_for_mac (= 1.0.3)
-  go (= 2.1.0)
+  go (= 1.1.0)
   heroku (= 2.1.1)
   homebrew (= 1.9.8)
   hub (= 1.3.0)
