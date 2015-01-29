@@ -37,6 +37,9 @@ MacVim.
 
 How do you do it?
 
+#### OS X 10.10 (Yosemite)
+Once Xcode is installed from the app store, open a terminal window and run `xcode-select --install`, which will prompt you to download and install Xcode command line tools.
+
 #### OS X 10.9 (Mavericks)
 
 If you are using [`b26abd0` of boxen-web](https://github.com/boxen/boxen-web/commit/b26abd0d681129eba0b5f46ed43110d873d8fdc2)
