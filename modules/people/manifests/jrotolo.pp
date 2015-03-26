@@ -1,3 +1,3 @@
-class people::mcscott142 {
+class people::jrotolo {
   include projects::all
 }
