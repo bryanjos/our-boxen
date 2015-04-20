@@ -23,7 +23,7 @@ end
 
 # Shortcut for a module under development
 def dev(name, *args)
-  mod name, :path => "#{ENV['HOME']}/src/boxen/puppet-#{name}"
+  mod "puppet-#{name}", :path => "#{ENV['HOME']}/src/boxen/puppet-#{name}"
 end
 
 # Includes many of our custom types and providers, as well as global
@@ -33,7 +33,7 @@ github "boxen", "3.10.2"
 
 # Support for default hiera data in modules
 
-github "module-data", "0.0.3", :repo => "ripienaar/puppet-module-data"
+github "module_data", "0.0.3", :repo => "ripienaar/puppet-module-data"
 
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
@@ -44,8 +44,8 @@ github "foreman",     "1.2.0"
 github "gcc",         "2.2.0"
 github "git",         "2.7.5"
 github "go",          "2.1.0"
-github "homebrew",    "1.11.12"
-github "hub",         "1.4.0"
+github "homebrew",    "1.11.2"
+github "hub",         "1.4.1"
 github "inifile",     "1.1.1", :repo => "puppetlabs/puppetlabs-inifile"
 github "nginx",       "1.4.4"
 github "nodejs",      "4.0.0"
