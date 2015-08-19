@@ -1,3 +1,3 @@
-class people::dacello {
+class people::maryolivier {
   include projects::all
 }
