@@ -99,6 +99,11 @@ GITHUBTARBALL
     mongodb (1.4.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-mysql
+  specs:
+    mysql (2.1.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
     nginx (1.4.6)
@@ -227,6 +232,7 @@ DEPENDENCIES
   macvim (= 1.0.0)
   module_data (= 0.0.4)
   mongodb (= 1.4.0)
+  mysql (= 2.1.2)
   nginx (= 1.4.6)
   nodejs (= 5.0.0)
   ohmyzsh (= 1.0.0)
