@@ -106,7 +106,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
-    nginx (1.4.6)
+    nginx (1.6.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-nodejs
@@ -151,7 +151,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
-    ruby (8.5.2)
+    ruby (8.5.3)
 
 GITHUBTARBALL
   remote: boxen/puppet-screenhero
@@ -233,7 +233,7 @@ DEPENDENCIES
   module_data (= 0.0.4)
   mongodb (= 1.4.0)
   mysql (= 2.1.2)
-  nginx (= 1.4.6)
+  nginx (= 1.6.0)
   nodejs (= 5.0.0)
   ohmyzsh (= 1.0.0)
   openssl (= 1.0.0)
@@ -243,7 +243,7 @@ DEPENDENCIES
   python (= 1.3.0)
   redis (= 3.1.0)
   repository (= 2.4.1)
-  ruby (= 8.5.2)
+  ruby (= 8.5.3)
   screenhero (= 1.0.1)
   skitch (= 1.0.2)
   stdlib (= 4.7.0)
@@ -251,4 +251,3 @@ DEPENDENCIES
   sudo (= 1.0.0)
   sysctl (= 1.0.1)
   xquartz (= 1.2.1)
-
