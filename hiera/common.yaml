@@ -9,7 +9,7 @@
 
 # See https://github.com/boxen/puppet-ruby for docs
 "ruby::rbenv::ensure": "v0.4.0"
-"ruby::build::ensure": "v20150413"
+"ruby::build::ensure": "v20151028"
 
 # See https://github.com/boxen/puppet-java for docs
 #java::update_version: 51
