@@ -1,3 +1,3 @@
 class people::blazebarsamian {
-  include projects::maritant
+  include projects::all
 }
