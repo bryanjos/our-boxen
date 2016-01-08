@@ -96,7 +96,7 @@ node default {
   ruby::version { '2.2.2': } 
   ruby::version { '2.2.3': }
   
-  class { 'ruby::global': version => '2.2.2' }
+  class { 'ruby::global': version => '2.2.3' }
   class { 'nodejs::global': version => '0.12' }
 
   # common, useful packages
