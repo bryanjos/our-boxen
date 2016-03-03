@@ -11,6 +11,9 @@
 "ruby::rbenv::ensure": "v0.4.0"
 "ruby::build::ensure": "v20151028"
 
+"nodejs::build::ensure": "v2.2.1"
+"nodejs::nodenv::ensure": "v1.0.0"
+
 # See https://github.com/boxen/puppet-java for docs
 #java::update_version: 51
 "ruby::version::alias":
