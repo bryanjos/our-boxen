@@ -84,6 +84,7 @@ node default {
   nodejs::version { '0.8': }
   nodejs::version { '0.10': }
   nodejs::version { '0.12': }
+  nodejs::version { '5.1.0': }
 
   # default ruby versions
   ruby::version { '1.9.3': }
@@ -97,7 +98,7 @@ node default {
   ruby::version { '2.2.3': }
   
   class { 'ruby::global': version => '2.2.3' }
-  class { 'nodejs::global': version => '0.12' }
+  class { 'nodejs::global': version => '5.1.0' }
 
   # common, useful packages
   package {
