@@ -74,6 +74,7 @@ node default {
   include lastpass
   include screenhero
   include revelry::nginxssl
+  include elixir
 
   # fail if FDE is not enabled
   # if $::root_encrypted == 'no' {
