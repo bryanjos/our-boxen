@@ -94,9 +94,11 @@ node default {
   ruby::version { '2.1.2': }
   ruby::version { '2.1.3': }
   ruby::version { '2.1.7': }
-  ruby::version { '2.2.2': } 
+  ruby::version { '2.1.8': }
+  ruby::version { '2.2.2': }
   ruby::version { '2.2.3': }
-  
+  ruby::version { '2.2.4': }
+
   class { 'ruby::global': version => '2.2.3' }
   class { 'nodejs::global': version => '5.1.0' }
 

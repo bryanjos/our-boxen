@@ -8,10 +8,10 @@
 # heart's content.
 
 # See https://github.com/boxen/puppet-ruby for docs
-"ruby::rbenv::ensure": "v0.4.0"
-"ruby::build::ensure": "v20151028"
+"ruby::rbenv::ensure": "v1.0.0"
+"ruby::build::ensure": "v20160602"
 
-"nodejs::build::ensure": "v2.2.1"
+"nodejs::build::ensure": "v2.3.1"
 "nodejs::nodenv::ensure": "v1.0.0"
 
 # See https://github.com/boxen/puppet-java for docs
