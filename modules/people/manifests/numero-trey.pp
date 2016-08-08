@@ -1,3 +1,3 @@
-class people::your_github_username_goes_here {
+class people::numero-trey {
   include projects::all
 }
